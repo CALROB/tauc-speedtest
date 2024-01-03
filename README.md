@@ -19,7 +19,7 @@ This repo aims to allow the easy creation of a TR-143 speed test server supporte
 >
 > `client_max_body_size` has been set to 200MB; adjust this if you'd like a larger upload size.
 
-5. Run Docker Compose `docker-compose up -d`
+5. Run Docker Compose `docker compose up -d`
 
 > [!NOTE]
 > This will start nginx on port 80. If you are already using this port on your server, you will need to rebind by adjusting the `docker-compose.yml` file and changing the ports to something like:
