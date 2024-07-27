@@ -4,7 +4,7 @@ services:
     image: 'nginx:latest'
     restart: "unless-stopped"
     ports:
-      - '80:80'
+      - '84240:80'
     volumes:
       - ./download-files:/usr/share/nginx/html/downloads:ro
       - ./site-config:/etc/nginx/conf.d
